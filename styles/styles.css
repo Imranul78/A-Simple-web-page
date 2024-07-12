@@ -160,3 +160,46 @@
     padding: 32px;
     
     }
+
+
+    #card-box{
+        margin-top:2000px ;
+        position: absolute;
+        width: 1240px;
+        height: 900px;
+        left: 148px;
+        right: 152px;
+        top: 800px;
+        bottom: 2993px;
+        }
+     
+    #card-box .cardbox-info{
+            text-align: center;
+            padding-bottom: 40px;   
+    }
+    
+    #card-box .card-container .card-info{
+       background-color: antiquewhite;
+       padding: 40px;
+       width: 300px;
+       border-radius: 16px;
+    }
+    
+    #card-box .card-container .card-info1{
+        background-color: rgb(170, 156, 134);
+        padding: 40px;
+        width: 300px;
+        border-radius: 16px;
+     }
+    
+     #card-box .card-container .card-info2{
+        background-color: rgb(243, 217, 182);
+        padding: 40px;
+        width: 300px;
+        border-radius: 16px;
+     }
+    
+    .card-container{
+        display: flex;
+        justify-content: space-between ;
+    }
